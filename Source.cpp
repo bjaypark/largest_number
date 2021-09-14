@@ -86,7 +86,9 @@ string solution(vector<int> numbers) {
 
 int main()
 {
-	solution({ 3, 30, 34, 5, 9 });
+	auto result = solution({ 3, 30, 34, 5, 9 });
+
+	printf(result.c_str());
 
 	return 0;
 }
