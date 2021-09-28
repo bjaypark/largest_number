@@ -9,7 +9,7 @@ vector<int> newNum;
 int solution(vector<int> numbers, int target) {
 
     const int MAX = 1 << 20;
-	int answer = 0;
+    int answer = 0;
     
 	newNum.reserve(MAX);
 	oldNum.reserve(MAX);
